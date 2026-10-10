@@ -1,0 +1,182 @@
+{
+  "T0": {
+    "icon": "⚙️",
+    "name": "T0 \"Фермер\"",
+    "projNum": 1,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 1,
+    "premium": 1,
+    "look": 0,
+    "combat": {
+      "hp": 500,
+      "armor": [2, 1, 0],
+      "dmg": 40,
+      "pen": 1,
+      "cd": 30,
+      "guns": 1,
+      "spd": 2.6,
+      "rspd": 1.7,
+      "bs": 8,
+      "mvr": 1.1,
+      "sMin": 0.052,
+      "sMax": 0.140
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 20,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 200,
+      "exp": 0,
+      "coins": 1,
+      "coinMul": 2
+    }
+  },
+  "T1": {
+    "icon": "🔰",
+    "name": "T1 \"Страж\"",
+    "projNum": 2,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 1,
+    "combat": {
+      "hp": 500,
+      "armor": [2, 1, 0],
+      "dmg": 60,
+      "pen": 1,
+      "cd": 84,
+      "guns": 2,
+      "spd": 2.6,
+      "rspd": 1.7,
+      "bs": 8,
+      "mvr": 1.0,
+      "sMin": 0.052,
+      "sMax": 0.140
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 0,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "T2": {
+    "icon": "⚔️",
+    "name": "T2 \"Булат\"",
+    "projNum": 4,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 2,
+    "combat": {
+      "hp": 500,
+      "armor": [2, 1, 0],
+      "dmg": 35,
+      "pen": 2,
+      "cd": 90,
+      "guns": 4,
+      "spd": 2.4,
+      "rspd": 1.6,
+      "bs": 7,
+      "mvr": 1.1,
+      "sMin": 0.070,
+      "sMax": 0.175
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 20,
+      "costCoins": 20,
+      "costGold": 0,
+      "reqAll": ["T1"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "T3": {
+    "icon": "🌀",
+    "name": "T3 \"Гроза\"",
+    "projNum": 5,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 3,
+    "combat": {
+      "hp": 450,
+      "armor": [2, 1, 0],
+      "dmg": 20,
+      "pen": 1,
+      "cd": 90,
+      "guns": 8,
+      "spd": 2.8,
+      "rspd": 1.87,
+      "bs": 9,
+      "mvr": 1.3,
+      "sMin": 0.070,
+      "sMax": 0.175
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 30,
+      "costCoins": 30,
+      "costGold": 0,
+      "reqAll": ["T1"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  }
+}
