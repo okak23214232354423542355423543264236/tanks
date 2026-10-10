@@ -1,0 +1,92 @@
+{
+  "СУ5": {
+    "icon": "🎯",
+    "name": "СУ5 \"Охотник\"",
+    "projNum": 16,
+    "nation": "ussr",
+    "role": "PT",
+    "rank": 1,
+    "premium": 0,
+    "look": 15,
+    "combat": {
+      "hp": 420,
+      "armor": [2, 1, 0],
+      "dmg": 85,
+      "pen": 2,
+      "cd": 50,
+      "guns": 1,
+      "spd": 2.6,
+      "rspd": 1.73,
+      "bs": 9,
+      "mvr": 1.5,
+      "sMin": 0.035,
+      "sMax": 0.105
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 0,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "СУ10": {
+    "icon": "🎯",
+    "name": "СУ10 \"Следопыт\"",
+    "projNum": 22,
+    "nation": "ussr",
+    "role": "PT",
+    "rank": 1,
+    "premium": 0,
+    "look": 20,
+    "combat": {
+      "hp": 780,
+      "armor": [3, 3, 1],
+      "dmg": 90,
+      "pen": 3,
+      "cd": 70,
+      "guns": 1,
+      "spd": 2.3,
+      "rspd": 1.53,
+      "bs": 10,
+      "mvr": 0.9,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 70,
+      "costCoins": 70,
+      "costGold": 0,
+      "reqAll": ["СУ5"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 250,
+      "exp": 3,
+      "coins": 2,
+      "coinMul": 2
+    }
+  }
+}

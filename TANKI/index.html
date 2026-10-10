@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Танки</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="g">
+  <h1>⚙️ АНГАР</h1>
+  <div class="res">
+    <span>⭐<b id="gE">0</b></span>
+    <span>🪙<b id="gC">0</b></span>
+    <span style="color:#f0e060">💰<b id="gG">0</b></span>
+  </div>
+  <div class="brow">
+    <button class="y" onclick="openTree()">📜 ДЕРЕВО</button>
+    <button class="r" onclick="resetAll()">🔄 СБРОС</button>
+  </div>
+  <div class="garage-layout">
+    <div class="nations" id="nationsBox"><div class="nations-title">НАЦИИ</div></div>
+    <div class="tank-area">
+      <div class="grid" id="grid"></div>
+      <button onclick="openMapSelect()">⚔️ В БОЙ</button>
+    </div>
+  </div>
+</div>
+
+<div id="mapSelect">
+  <h2>🗺️ ВЫБОР КАРТЫ</h2>
+  <div class="map-options">
+    <div class="map-option" onclick="start('corridor')">
+      <span class="icon">🏭</span>
+      <div class="nm">КОРИДОР 1v7</div>
+      <div class="desc">Один против семи.<br>Узкий коридор с укрытиями.</div>
+    </div>
+    <div class="map-option" onclick="start('open')">
+      <span class="icon">🏞️</span>
+      <div class="nm">ОТКРЫТАЯ 1v7</div>
+      <div class="desc">Большая карта.<br>Игрок в центре.<br>Враги по периметру.</div>
+    </div>
+    <div class="map-option" onclick="start('team7v7')">
+      <span class="icon">⚔️</span>
+      <div class="nm">БИТВА 7v7</div>
+      <div class="desc">Ты и 6 союзников<br>против 7 врагов.<br>Квадратная арена с блоками.</div>
+    </div>
+  </div>
+  <button class="r" onclick="closeMapSelect()">✕ Отмена</button>
+</div>
+
+<div id="tree">
+  <div class="tree-head">
+    <h2>📜 ДЕРЕВО ИССЛЕДОВАНИЙ</h2>
+    <button onclick="closeTree()">✕ Закрыть</button>
+  </div>
+  <div class="tree-nations" id="treeNations"></div>
+  <div class="tree-scroll" id="treeScroll"></div>
+</div>
+
+<div id="lootbox">
+  <h2>🎁 ЛУТБОКС ПРЕМИУМ-ТАНКОВ</h2>
+  <div class="loot-roulette">
+    <div class="loot-track" id="lootTrack"></div>
+    <div class="loot-center-arrow"></div>
+  </div>
+  <div class="loot-result" id="lootResult"></div>
+  <div class="loot-info">Шанс: <b>3%</b> на танк. Стоимость: <b>10💰</b>. Дубликат → <b>+100💰</b>.</div>
+  <div class="loot-buttons">
+    <button class="prem" id="lootBtn" onclick="spinLootbox()">🎲 Крутить (10💰)</button>
+    <button class="r" onclick="closeLootbox()">✕ Закрыть</button>
+  </div>
+</div>
+
+<div id="battleEnd">
+  <h1 id="battleEndTitle">ПОБЕДА</h1>
+  <div class="stats" id="battleEndStats"></div>
+  <button class="y" onclick="closeBattleEnd()">🏠 В ангар</button>
+</div>
+
+<div class="ttx-card" id="ttxCard"></div>
+
+<canvas id="c"></canvas>
+
+<div id="hud" class="hide">
+  <div class="hb"><span>❤️</span><div class="hpbg"><div id="hpF"></div></div><b id="hpD">500</b><span>🎯<b id="sc">0</b></span></div>
+  <div class="hc"><span>⭐<b id="tN">T1</b></span><div class="ebg"><div id="exF"></div><div id="exT">0/100</div></div><span>🪙<b id="hC">0</b></span><span style="color:#f0e060">💰<b id="hG">0</b></span><button onclick="openTree()">📜</button><button onclick="toGarage()">🏠</button></div>
+  <div class="hr"><span>⏱<b id="tm">0:00</b></span><span>⚡<b id="eC">0</b></span><span id="cdD" style="color:#ffaa60">▶</span></div>
+</div>
+<div id="ctl">WASD — движение | ЛКМ — стрельба | SHIFT — пулемёт | ESC — ангар</div>
+
+<script src="game.js"></script>
+</body>
+</html>

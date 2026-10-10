@@ -1,0 +1,137 @@
+{
+  "E21": {
+    "icon": "🐍",
+    "name": "E21 \"Змееед\"",
+    "projNum": 10,
+    "nation": "germany",
+    "role": "PT",
+    "rank": 2,
+    "premium": 0,
+    "look": 10,
+    "combat": {
+      "hp": 650,
+      "armor": [3, 2, 1],
+      "dmg": 60,
+      "pen": 3,
+      "cd": 78,
+      "guns": 3,
+      "spd": 2.1,
+      "rspd": 1.4,
+      "bs": 9,
+      "mvr": 0.7,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 60,
+      "costCoins": 60,
+      "costGold": 0,
+      "reqAll": ["E20"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 200,
+      "exp": 3,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "E30": {
+    "icon": "🦁",
+    "name": "E30 \"Грифон\"",
+    "projNum": 12,
+    "nation": "germany",
+    "role": "PT",
+    "rank": 2,
+    "premium": 0,
+    "look": 11,
+    "combat": {
+      "hp": 700,
+      "armor": [3, 2, 1],
+      "dmg": 75,
+      "pen": 4,
+      "cd": 90,
+      "guns": 3,
+      "spd": 1.9,
+      "rspd": 1.27,
+      "bs": 10,
+      "mvr": 0.6,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 90,
+      "costCoins": 90,
+      "costGold": 0,
+      "reqAll": ["E21"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 250,
+      "exp": 4,
+      "coins": 3,
+      "coinMul": 2
+    }
+  },
+  "KW E20": {
+    "icon": "🏹",
+    "name": "KW E20",
+    "projNum": 11,
+    "nation": "germany",
+    "role": "ST",
+    "rank": 2,
+    "premium": 1,
+    "look": 12,
+    "combat": {
+      "hp": 550,
+      "armor": [3, 2, 1],
+      "dmg": 22,
+      "pen": 2,
+      "cd": 84,
+      "guns": 8,
+      "spd": 2.6,
+      "rspd": 1.73,
+      "bs": 9,
+      "mvr": 1.0,
+      "sMin": 0.087,
+      "sMax": 0.210
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 40,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 200,
+      "exp": 3,
+      "coins": 2,
+      "coinMul": 2
+    }
+  }
+}

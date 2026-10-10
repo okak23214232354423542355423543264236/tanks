@@ -1,0 +1,20 @@
+{
+  "usa": {
+    "flag": "🇺🇸",
+    "name": "ТЭШКИ",
+    "code": "USA",
+    "color": "#4a7ac9"
+  },
+  "germany": {
+    "flag": "🇩🇪",
+    "name": "ЕШКИ",
+    "code": "GER",
+    "color": "#c9a83a"
+  },
+  "ussr": {
+    "flag": "🇷🇺",
+    "name": "СУШКИ",
+    "code": "USSR",
+    "color": "#c94a3a"
+  }
+}

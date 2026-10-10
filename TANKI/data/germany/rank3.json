@@ -1,0 +1,92 @@
+{
+  "E40": {
+    "icon": "🐍⚡",
+    "name": "E40 \"Гидра\"",
+    "projNum": 15,
+    "nation": "germany",
+    "role": "PT",
+    "rank": 3,
+    "premium": 0,
+    "look": 14,
+    "combat": {
+      "hp": 1150,
+      "armor": [4, 3, 2],
+      "dmg": 40,
+      "pen": 4,
+      "cd": 90,
+      "guns": 8,
+      "spd": 2.2,
+      "rspd": 1.47,
+      "bs": 10,
+      "mvr": 0.65,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 220,
+      "costCoins": 220,
+      "costGold": 0,
+      "reqAll": ["E30"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 1600,
+      "exp": 6,
+      "coins": 5,
+      "coinMul": 6
+    }
+  },
+  "E40 JPZ": {
+    "icon": "🐍💀",
+    "name": "E40 JPZ",
+    "projNum": 20,
+    "nation": "germany",
+    "role": "PT",
+    "rank": 3,
+    "premium": 0,
+    "look": 19,
+    "combat": {
+      "hp": 1100,
+      "armor": [4, 3, 2],
+      "dmg": 48,
+      "pen": 4,
+      "cd": 85,
+      "guns": 6,
+      "spd": 3.2,
+      "rspd": 2.13,
+      "bs": 10,
+      "mvr": 0.9,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 320,
+      "costCoins": 320,
+      "costGold": 0,
+      "reqAll": ["E40"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 1500,
+      "exp": 7,
+      "coins": 6,
+      "coinMul": 7
+    }
+  }
+}

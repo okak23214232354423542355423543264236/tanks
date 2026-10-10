@@ -1,0 +1,47 @@
+{
+  "СУ15": {
+    "icon": "🎯",
+    "name": "СУ15 \"Кувалда\"",
+    "projNum": 23,
+    "nation": "ussr",
+    "role": "PT",
+    "rank": 2,
+    "premium": 0,
+    "look": 22,
+    "combat": {
+      "hp": 650,
+      "armor": [3, 2, 1],
+      "dmg": 105,
+      "pen": 5,
+      "cd": 82,
+      "guns": 1,
+      "spd": 2.4,
+      "rspd": 1.6,
+      "bs": 10,
+      "mvr": 1.0,
+      "sMin": 0.035,
+      "sMax": 0.087
+    },
+    "special": {
+      "isPT": 1,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 120,
+      "costCoins": 120,
+      "costGold": 0,
+      "reqAll": ["СУ10"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 900,
+      "exp": 300,
+      "coins": 4,
+      "coinMul": 2
+    }
+  }
+}

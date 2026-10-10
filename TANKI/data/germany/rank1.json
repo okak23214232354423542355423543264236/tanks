@@ -1,0 +1,227 @@
+{
+  "E1": {
+    "icon": "🦅",
+    "name": "E1 \"Орёл\"",
+    "projNum": 3,
+    "nation": "germany",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 6,
+    "combat": {
+      "hp": 500,
+      "armor": [2, 1, 0],
+      "dmg": 55,
+      "pen": 1,
+      "cd": 72,
+      "guns": 2,
+      "spd": 2.4,
+      "rspd": 1.6,
+      "bs": 8,
+      "mvr": 1.0,
+      "sMin": 0.070,
+      "sMax": 0.180
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 0,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "E1R": {
+    "icon": "🦅✨",
+    "name": "E1R \"Сокол\"",
+    "projNum": 8,
+    "nation": "germany",
+    "role": "LT",
+    "rank": 1,
+    "premium": 1,
+    "look": 7,
+    "combat": {
+      "hp": 400,
+      "armor": [1, 1, 0],
+      "dmg": 55,
+      "pen": 1,
+      "cd": 66,
+      "guns": 2,
+      "spd": 4.0,
+      "rspd": 2.67,
+      "bs": 8,
+      "mvr": 1.7,
+      "sMin": 0.070,
+      "sMax": 0.210
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 0,
+      "costCoins": 0,
+      "costGold": 20,
+      "reqAll": [],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "E2": {
+    "icon": "🛡️",
+    "name": "E2 \"Волк\"",
+    "projNum": 21,
+    "nation": "germany",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 21,
+    "combat": {
+      "hp": 520,
+      "armor": [2, 2, 0],
+      "dmg": 50,
+      "pen": 1,
+      "cd": 72,
+      "guns": 2,
+      "spd": 2.6,
+      "rspd": 1.73,
+      "bs": 8,
+      "mvr": 1.15,
+      "sMin": 0.070,
+      "sMax": 0.180
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 20,
+      "costCoins": 20,
+      "costGold": 0,
+      "reqAll": ["E1"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "E10": {
+    "icon": "🦅⚡",
+    "name": "E10 \"Ястреб\"",
+    "projNum": 6,
+    "nation": "germany",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 8,
+    "combat": {
+      "hp": 500,
+      "armor": [3, 1, 0],
+      "dmg": 30,
+      "pen": 1,
+      "cd": 30,
+      "guns": 1,
+      "spd": 2.4,
+      "rspd": 1.6,
+      "bs": 8,
+      "mvr": 0.8,
+      "sMin": 0.070,
+      "sMax": 0.180
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 25,
+      "costCoins": 25,
+      "costGold": 0,
+      "reqAll": ["E1"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  },
+  "E20": {
+    "icon": "🦅🔥",
+    "name": "E20 \"Беркут\"",
+    "projNum": 7,
+    "nation": "germany",
+    "role": "ST",
+    "rank": 1,
+    "premium": 0,
+    "look": 9,
+    "combat": {
+      "hp": 500,
+      "armor": [2, 1, 0],
+      "dmg": 40,
+      "pen": 2,
+      "cd": 78,
+      "guns": 3,
+      "spd": 2.4,
+      "rspd": 1.6,
+      "bs": 8,
+      "mvr": 1.1,
+      "sMin": 0.070,
+      "sMax": 0.180
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 45,
+      "costCoins": 45,
+      "costGold": 0,
+      "reqAll": ["E10"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 166,
+      "exp": 2,
+      "coins": 2,
+      "coinMul": 2
+    }
+  }
+}

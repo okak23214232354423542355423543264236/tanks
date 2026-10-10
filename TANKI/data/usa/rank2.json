@@ -1,0 +1,137 @@
+{
+  "T4": {
+    "icon": "🌪️",
+    "name": "T4 \"Вихрь\"",
+    "projNum": 9,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 2,
+    "premium": 0,
+    "look": 4,
+    "combat": {
+      "hp": 850,
+      "armor": [3, 2, 1],
+      "dmg": 50,
+      "pen": 3,
+      "cd": 72,
+      "guns": 3,
+      "spd": 3.2,
+      "rspd": 2.13,
+      "bs": 7.5,
+      "mvr": 1.0,
+      "sMin": 0.052,
+      "sMax": 0.122
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 40,
+      "costCoins": 40,
+      "costGold": 0,
+      "reqAll": [],
+      "reqAny": ["T2", "T3"]
+    },
+    "enemy": {
+      "hp": 250,
+      "exp": 3,
+      "coins": 2,
+      "coinMul": 3
+    }
+  },
+  "T5": {
+    "icon": "💨",
+    "name": "T5 \"Смерч\"",
+    "projNum": 13,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 2,
+    "premium": 0,
+    "look": 5,
+    "combat": {
+      "hp": 1100,
+      "armor": [4, 2, 1],
+      "dmg": 110,
+      "pen": 3,
+      "cd": 102,
+      "guns": 2,
+      "spd": 2.6,
+      "rspd": 1.73,
+      "bs": 7.5,
+      "mvr": 0.7,
+      "sMin": 0.070,
+      "sMax": 0.140
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 80,
+      "costCoins": 80,
+      "costGold": 0,
+      "reqAll": ["T4"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 400,
+      "exp": 4,
+      "coins": 3,
+      "coinMul": 4
+    }
+  },
+  "T6": {
+    "icon": "⚡",
+    "name": "T6 \"Гром\"",
+    "projNum": 14,
+    "nation": "usa",
+    "role": "ST",
+    "rank": 2,
+    "premium": 0,
+    "look": 13,
+    "combat": {
+      "hp": 700,
+      "armor": [2, 1, 1],
+      "dmg": 52,
+      "pen": 3,
+      "cd": 90,
+      "guns": 4,
+      "spd": 3.4,
+      "rspd": 2.27,
+      "bs": 8.5,
+      "mvr": 1.4,
+      "sMin": 0.052,
+      "sMax": 0.122
+    },
+    "special": {
+      "isPT": 0,
+      "mgOn": 0,
+      "mgDmg": 0,
+      "sniperOn": 0,
+      "sniperMult": 1.4,
+      "sniperCdMax": 180
+    },
+    "research": {
+      "costExp": 100,
+      "costCoins": 100,
+      "costGold": 0,
+      "reqAll": ["T5"],
+      "reqAny": []
+    },
+    "enemy": {
+      "hp": 300,
+      "exp": 4,
+      "coins": 3,
+      "coinMul": 4
+    }
+  }
+}
